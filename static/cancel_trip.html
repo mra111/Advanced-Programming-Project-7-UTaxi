@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UTAXI</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <h1>UTAXI</h1>
+        <h2>Cancel Trip</h2>
+        <div>
+            <form action="cancel_trip", method="post">
+                <label for="username">Username:</label>
+                <br />
+                <input name="username", placeholder="username" required />
+                <br />
+                <label for="tripid">Trip ID</label>
+                <br />
+                <input type="number", name="tripid", placeholder="tripid" required />
+                <br />
+                <button type="submit">Cancel Trip</button>
+            </form>
+            <br />
+            <a class="home_button" href="/">home</a>
+        </div>
+    </body>
+</html>

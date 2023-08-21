@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UTAXI</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <h1>UTAXI</h1>
+        <h2>Request Trip</h2>
+        <div>
+            <form action="request_trip", method="post">
+                <label for="username">Username:</label>
+                <br />
+                <input name="username", placeholder="username" required />
+                <br />
+                <label for="origin">Origin:</label>
+                <br />
+                <input name="origin", placeholder="origin" required />
+                <br />
+                <label for="destination">Destination:</label>
+                <br />
+                <input name="destination", placeholder="destination" required />
+                <br />
+                <label for="in_hurry">In Hurry:</label>
+                <br />
+                <select name="in_hurry">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <br />
+                <button type="submit" formaction="/trip_cost">Show Cost</button>
+                <br />
+                <button type="submit">Request Trip</button>
+            </form>
+            <br />
+            <a class="home_button" href="/">home</a>
+        </div>
+    </body>
+</html>

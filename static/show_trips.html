@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UTAXI</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <h1>UTAXI</h1>
+        <h2>Show Trips</h2> 
+        <form action="show_trips", method="post">
+            <label for="username">Username:</label>
+            <br />
+            <input name="username", placeholder="username" />
+            <br />
+            <label for="sort">Sort by:</label>
+            <br />
+            <select name="sort">
+                <option value="id">ID</option>
+                <option value="cost">Cost</option>
+            </select>
+            <br />
+            <button type="submit">Show Trips</button>
+        </form>
+        <br />
+        <a class="home_button" href="/">home</a>
+    </body>
+</html>

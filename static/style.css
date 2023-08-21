@@ -1,0 +1,114 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 400%;
+    color: green;
+}
+
+label {
+    font-size: medium;
+    background-color: aqua;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+input {
+    width: 50%;
+    margin: 10pt;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    background-color: rgb(201, 201, 233);
+}
+
+select {
+    width: 50%;
+    margin: 10pt;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    background-color: rgb(201, 201, 233);
+}
+
+button {
+    width: 20%;
+    margin: 10pt;
+    padding: 10px 10px;
+    background-color: greenyellow;
+    font-size: large;
+}
+
+.home_button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.back_button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.error_massage {
+    color: red;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.empty {
+    color: red;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ok_massage {
+    color: green;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu_option {
+    background-color: skyblue;
+    color: green;
+    width: 50%;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+table {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(142, 219, 142);
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+.option_button {
+    color: blue;
+    text-decoration: none;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
